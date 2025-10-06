@@ -9,3 +9,28 @@
     font-family: "Outfit";
     src: url(https://fonts.google.com/specimen/Outfit);
 }
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: var(--bg-color);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 20px;
+}
