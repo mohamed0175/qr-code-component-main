@@ -1,0 +1,11 @@
+:root{
+    --bg-color: hsl(212, 45%, 89%);
+    --card-color: hsl(0, 0%, 100%);
+    --title-color: hsl(218, 44%, 22%);
+    --text-color: hsl(216, 15%, 48%);
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
