@@ -67,7 +67,7 @@ body{
 
 }
 
-@media(max-width: 600px) {
+@media(max-width: 550px) {
     .qr {width: 260px;}
     .title {font-size: 1.5rem;}
     .description {font-size: 1rem;}
