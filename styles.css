@@ -1,36 +1,74 @@
+@font-face {
+    font-family: "Outfit";
+    src: url(images/Outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(images/Outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 700;
+}
+
 :root{
     --bg-color: hsl(212, 45%, 89%);
     --card-color: hsl(0, 0%, 100%);
     --title-color: hsl(218, 44%, 22%);
     --text-color: hsl(216, 15%, 48%);
-}
-
-@font-face {
     font-family: "Outfit";
-    src: url(https://fonts.google.com/specimen/Outfit);
+    font-size: 15px;
 }
 
 html{
     height: 100%;
+    width: 100%;
 }
 
 body{
     background-color: var(--bg-color);
     height: 100%;
+    width: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .card {
     background-color: white;
-    width: 400px;
-    height: 500px;
     margin: auto;
-    padding: 30px;
-    border-radius: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-img {
-    border-radius: 20px;
+.qr {
+    border-radius: 15px;
+    width: 400px;
+
+}
+
+.title {
+ font-weight: 700;
+ color: var(--title-color);
+ font-size: 2rem;
+ text-align: center;
+ margin-bottom: 0;
+}
+
+.description {
+ font-weight: 400;
+ color: var(--text-color);
+ font-size: 1.2rem;
+ text-align: center;
+ margin-bottom: 25px;
+
+}
+
+@media(max-width: 600px) {
+    .qr {width: 260px;}
+    .title {font-size: 1.5rem;}
+    .description {font-size: 1rem;}
 }
