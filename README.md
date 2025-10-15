@@ -1,4 +1,5 @@
 # Frontend Mentor - QR code component
+project page link: https://mohamed0175.github.io/qr-code-component-main/
 
 ![Design preview for the QR code component coding challenge](./preview.jpg)
 
